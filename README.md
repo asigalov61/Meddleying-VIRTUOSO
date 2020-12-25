@@ -17,8 +17,8 @@ Primary purpose is to serve as a MIDI/Music pre/post processor for a melody-gene
 
 1) Melody of any musical composition can be expressed as composition's chords(not notes!) highest pitches, assuming that chords size >= 1 standard musical note.
 2) Music is most likely 4-dimentional in nature, which explains why it is so difficult to understand and classify/explain scientifically.
-3) Discovered simple musical formula so far can be expressed as N = T(P * D * V) where N = Note, T = Time, P = Pitch, D = Duration, V = Velocity.
-4) Velocity of chords of most musical compositions can be approx. expressed as V = max(P) + Ed, where P = Pitch and Ed = Emphasis onset delay (can be positive or negative).
+3) Discovered simple musical formula so far can be expressed as C = t(P, D , V) where C = Chord, t = Time, P = Pitch, D = Duration, V = Velocity.
+4) Velocity of chords of most musical compositions can be approx. expressed as V = max(P) + Ed, where P = Pitch and Ed = Emphasis onset delay (can be positive(?) or negative). Although from analysis it is usually negative or equal 0.
 5) Velocity of chords of most musical compositions usually never exceeds the velocity of chord's highest pitches (melody notes) of the composition.
 6) ...
 
